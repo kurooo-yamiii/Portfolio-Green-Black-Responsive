@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <head>
-    <title>COBARRUBIAS, KENNETH L.</title>
-    <link rel="stylesheet" href="resume.css">
-    <link rel="stylesheet" href="resumemedia.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="icon" type="png" href="Resources/pf.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COBARRUBIAS, KENNETH L.</title>
+
+  <!-- Export Styles -->
+  <link rel="stylesheet" href="resume.css">
+  <link rel="stylesheet" href="resumemedia.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/pf.png">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    <style>
-      
-        p {
-            font-family: Roboto, Arial;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-    
-    </style>
+<body class="bg-gray-50 text-gray-800 font-['Roboto']">
     <div class="sideheader">
+
         <div id="right-side-div" class="rightside">
-        
+            <!-- Sidebar Profile -->
             <div class ="first">
                 <div class="first1">
-                    <img class="profile" src = "Resources/dp.jpg">
+                    <img class="profile" src="Resources/dp.jpg" alt="Profile picture">
                 </div>
                 <div class="first2">
                     <div class="first2-1">
@@ -34,186 +41,71 @@
                         <p class="email">kennethcobarubias12@gmail.com</p>
                     </div>
                     <div class="first2-3">
-                        <p class="tag">Github - kurooo-yamiii</p>
+                        <p class="tag">Github: kurooo-yamiii</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Framework -->
             <div class="fourth">
-                <div class="fourth1">
-                    <div class="donut">
-             <canvas id="donutChart" width="60" height="60"></canvas>
-
-			<script>
-		
-			const data = {
-
-				datasets: [{
-				data: [15, 80], 
-				backgroundColor: ['rgba(25, 135, 84, 0.5)', 'rgba(25, 135, 84, 1.0)']
-				}]
-			};
-
-			
-			const options = {
-				cutoutPercentage: 70, 
-				responsive: false, 
-				legend: {
-				position: 'right'
-				}
-			};
-
-			const ctx = document.getElementById('donutChart').getContext('2d');
-
-			
-			const donutChart = new Chart(ctx, {
-				type: 'doughnut',
-				data: data,
-				options: options
-			});
-
-			
-			</script>
-
+                <div class="medium-header">
+                    FRAMEWORK
                     </div>
-                    <div>
-                        <p class="problemsolving">Problem</p> 
-                        <p class="problemsolving">Solving</p> 
-                    </div>
-                </div>
-                <div class="fourth2">
-                    <div class="donut">
-                        <canvas id="donutChart2" width="60" height="60"></canvas>
-           
-                       <script>
-                   
-                       const data2 = {
-           
-                           datasets: [{
-                           data: [20, 82], 
-                           backgroundColor: ['rgba(25, 135, 84, 0.5)', 'rgba(25, 135, 84, 1.0)']
-                           }]
-                       };
-           
-                       
-                       const options2 = {
-                           cutoutPercentage: 70, 
-                           responsive: false, 
-                           legend: {
-                           position: 'right'
-                           }
-                       };
-           
-                       const ctx2 = document.getElementById('donutChart2').getContext('2d');
-           
-                       
-                       const donutChart2 = new Chart(ctx2, {
-                           type: 'doughnut',
-                           data: data2,
-                           options: options2
-                       });
-           
-                       
-                       </script>
-           
-                               </div>
-                    <div>
-                        <p class="logicalthinking">Logical</p>
-                        <p class="logicalthinking">Thinking</p>
-                    </div>
-                </div>
-                <div class="fourth3">
-                    <div class="donut">
-                        <canvas id="donutChart3" width="60" height="60"></canvas>
-           
-                       <script>
-                   
-                       const data3 = {
-           
-                           datasets: [{
-                           data: [13, 87], 
-                           backgroundColor: ['rgba(25, 135, 84, 0.5)', 'rgba(25, 135, 84, 1.0)']
-                           }]
-                       };
-           
-                       
-                       const options3 = {
-                           cutoutPercentage: 70, 
-                           responsive: false, 
-                           legend: {
-                           position: 'right'
-                           }
-                       };
-           
-                       const ctx3 = document.getElementById('donutChart3').getContext('2d');
-                       
-                       
-                       const donutChart3 = new Chart(ctx3, {
-                           type: 'doughnut',
-                           data: data3,
-                           options: options3
-                       });
-           
-                       
-                       </script>
-           
-                               </div>
-                    <div>
-                        <p class="creativityinnovative">Creativity /</p>
-                        <p class="creativityinnovative">Innovative</p>
-                    </div>
+                    <div class="icon-container">
+                    <div class="icon2"><img src="Resources/CodeIgniter.png" alt="Icon 4"></div>
+                    <div class="icon"><img src="Resources/Laravel.png" alt="Icon 5"></div>
+                    <div class="icon2"><img src="Resources/netcore.png" alt="Icon 6"></div>
+
                 </div>
             </div>
 
+            <!-- Programming Skills -->
             <div class="fifth">
                 <div class="medium-header">
                     PROGRAMMING SKILLS
-                 </div>
-                 <div class="icon-container">
-                    <div class="icon2"><img src="Resources/vb.png" alt="Icon 4"></div>
-                    <div class="icon3"><img src="Resources/c.png" alt="Icon 5"></div>
+                    </div>
+                    <div class="icon-container">
+                    <div class="icon"><img src="Resources/VisualNew.png" alt="Icon 4"></div>
+                    <div class="icon2"><img src="Resources/Vue.png" alt="Icon 5"></div>
                     <div class="icon"><img src="Resources/csharp.png" alt="Icon 6"></div>
                     <div class="icon1"><img src="Resources/ajax.png" alt="Icon 1"></div>
                     <div class="icon"><img src="Resources/HTML.png" alt="Icon 2"></div>
                     <div class="icon2"><img src="Resources/CSS.png" alt="Icon 3"></div>
                     <div class="icon4"><img src="Resources/ph.png" alt="Icon 4"></div>
-                    <div class="icon3"><img src="Resources/Java.png" alt="Icon 5"></div>
-                    <div class="icon1"><img src="Resources/mysql.png" alt="Icon 6"></div>
-                    
+                    <div class="icon3"><img src="Resources/Tailwind.png" alt="Icon 5"></div>
+                    <div class="icon2"><img src="Resources/Bootstrap.png" alt="Icon 6"></div>
                 </div>
-               
             </div>
-          
-        <div class="sixth">
-             <div class="medium-header">
-                TOOLS AND MEDIUM
-             </div>
-             <div class="icon-container">
-                <div class="icon"><img src="Resources/vscode.png" alt="Icon 4"></div>
-                <div class="icon"><img src="Resources/visualstudio.png" alt="Icon 5"></div>
-                <div class="icon"><img src="Resources/netbeans.png" alt="Icon 6"></div>
-                <div class="icon1"><img src="Resources/xampp.png" alt="Icon 1"></div>
-                <div class="icon1"><img src="Resources/workbench.png" alt="Icon 2"></div>
-                <div class="icon"><img src="Resources/sqlserver.png" alt="Icon 3"></div>
-                <div class="icon"><img src="Resources/Dev.png" alt="Icon 4"></div>
-                <div class="icon"><img src="Resources/git.png" alt="Icon 5"></div>
-              
-                
-            </div>           
-                   
-        </div>
-     
-       
-        <div class="medium-header2">
-          
-        </div>
+            
+            <!-- Tools and Medium -->
+            <div class="sixth">
+                <div class="medium-header">
+                    TOOLS AND MEDIUM
+                </div>
+                <div class="icon-container">
+                    <div class="icon"><img src="Resources/vscode.png" alt="Icon 4"></div>
+                    <div class="icon"><img src="Resources/visualstudio.png" alt="Icon 5"></div>
+                    <div class="icon"><img src="Resources/netbeans.png" alt="Icon 6"></div>
+                    <div class="icon1"><img src="Resources/xampp.png" alt="Icon 1"></div>
+                    <div class="icon1"><img src="Resources/workbench.png" alt="Icon 2"></div>
+                    <div class="icon"><img src="Resources/sqlserver.png" alt="Icon 3"></div>
+                    <div class="icon"><img src="Resources/git.png" alt="Icon 5"></div>
+                    <div class="icon"><img src="Resources/Postman.png" alt="Icon 5"></div>
+                </div>           
+                    
+            </div>
+            
+            <!-- Resume Attachment -->
+            <div class="medium-header2">
+            
+            </div>
             <div class="seventh">
-              
-                <div id="centerdl">
-                <a href="Resources/COBARRUBIAS_KENNETH _L.pdf" style="text-decoration: none;" download><p class="dlresume">Download Resume</p></a>
-            </div>
+                    <div id="centerdl">
+                    <a href="Resources/COBARRUBIAS_KENNETH _L.pdf" download ><p class="dlresume">Download Resume</p></a>
+                </div>
             </div>
         </div>
+
         <div class="excess">
           
         </div>
